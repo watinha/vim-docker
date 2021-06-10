@@ -16,7 +16,7 @@ set scroll=5
 set backupdir=~/.vim/.backup/,.
 set title
 set cursorline
-colorscheme slate
+colorscheme onedark
 hi CursorLine   cterm=NONE ctermbg=black
 set showmatch
 autocmd BufWritePre * :%s/\s\+$//e

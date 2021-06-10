@@ -26,6 +26,8 @@ WORKDIR /usr/local/share/vim/vim82/bundle/command-t
 RUN rake make
 ADD vimrc /root/.vimrc
 ADD vimrc /home/watinha/.vimrc
+RUN curl https://raw.githubusercontent.com/joshdick/onedark.vim/master/autoload/onedark.vim > /usr/local/share/vim/vim82/autoload/onedark.vim
+RUN curl https://raw.githubusercontent.com/joshdick/onedark.vim/master/colors/onedark.vim > /usr/local/share/vim/vim82/colors/onedark.vim
 
 USER 501
 WORKDIR /app
