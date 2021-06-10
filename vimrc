@@ -28,7 +28,7 @@ set termencoding=utf-8
 set ignorecase
 set incsearch
 set hlsearch
-set wildignore=*.swp,*.bak,*.pyc,*.class
+set wildignore=*.swp,*.bak,*.pyc,*.class,*/node_modules
 set smartindent
 
 set ttimeoutlen=50
